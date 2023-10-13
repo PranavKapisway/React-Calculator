@@ -1,0 +1,24 @@
+.keypad{
+    flex: 1.3;
+    background-color: var(--bg-color-2);
+    padding: 20px;
+    display: flex;
+}
+
+.keypad p{
+    line-height: 1.875rem;
+    font-size: 1.8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 200ms;
+    user-select: none;
+    cursor: pointer;
+    color: var(--text-color-2);
+}
+
+.keypad_keys{
+    flex: 3;
+    display: flex;
+    flex-wrap: wrap;
+}
